@@ -4,7 +4,8 @@ import java.util.Arrays;
 public class Main{
     public static void token_detector(String statement){
         int c=0,i=0,s=0,k=0;
-        List<String> keywords = Arrays.asList("int","String","boolean","double","char","if","else","for","while","do","return","public","private","protected","void","static","true","false");
+        List<String> keywords = Arrays.asList("int","String","boolean","double","char","if","else","for",
+        "while","do","return","public","private","protected","void","static","true","false");
         char[] charac = new char[999];
         char[] integer = new char[999];
         char[] spec_char = new char[999];

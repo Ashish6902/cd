@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-
 void swap(int *a, int *b) {
   int t = *a;
   *a = *b;
@@ -18,7 +16,6 @@ int partition(int array[], int low, int high) {
   swap(&array[i + 1], &array[high]);
   return (i + 1);
 }
-
 void quickSort(int array[], int low, int high) {
   if (low < high) {
   int pi = partition(array, low, high);
@@ -34,13 +31,10 @@ void printArray(int array[], int size) {
 }
 int main() {
   int data[] = {8, 7, 2, 1, 0, 9, 6};
-  
-  int n = sizeof(data) / sizeof(data[0]);
-  
+  int n = sizeof(data) / sizeof(data[0]); 
   printf("Unsorted Array\n");
   printArray(data, n);
   quickSort(data, 0, n - 1);
-  
   printf("Sorted array: \n");
   printArray(data, n);
 }

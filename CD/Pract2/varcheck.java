@@ -17,7 +17,9 @@ public class varcheck{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter variable name: ");
 		String var = sc.nextLine();
-		List<String> keywords = Arrays.asList("int","String","boolean","double","char","if","else","for","while","do","return","public","private","protected","void","static","true","false");
+		List<String> keywords = Arrays.asList("int","String","boolean","double",
+		"char","if","else","for","while","do","return","public","private","protected",
+		"void","static","true","false");
 		boolean ans = check_validity(var);
 		if (ans == true){
 		    boolean c = keywords.contains(var);
