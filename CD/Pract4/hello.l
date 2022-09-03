@@ -11,7 +11,7 @@
 %%
 main()
 {
-    printf("Enter Input");
+    printf("Enter Input: ");
     yylex();
 }
 yywrap()
