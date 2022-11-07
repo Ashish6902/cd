@@ -45,8 +45,7 @@ void bellmanford(struct Graph *g, int source) {
   for (i = 0; i < tV; i++) {
     d[i] = INFINITY;
     p[i] = 0;
-  }
-  d[source] = 0;
+  }d[source] = 0;
   for (i = 1; i <= tV - 1; i++) {
     for (j = 0; j < tE; j++) {
       u = g->edge[j].u;
