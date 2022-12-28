@@ -1,0 +1,3 @@
+PS D:\5th-Sem-Practicals\CD\Pract5\word count> flex word.l 
+PS D:\5th-Sem-Practicals\CD\Pract5\word count> gcc lex.yy.c
+PS D:\5th-Sem-Practicals\CD\Pract5\word count> ./a.exe
